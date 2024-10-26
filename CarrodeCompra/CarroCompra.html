@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-mx" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CarroCompraStyles.css">
+
+</head>
+<body class="body">
+
+    <div class="Lienzo-AhriVisuals verborde">
+        <img class="AhriVisuals" id="Lados" src="Imgns/Ahri-frente.png">
+        
+        <div class="Lienzo-Ahri-Botones-Lados">
+            <button onclick="document.getElementById('Lados').src='Imgns/Ahri-izquierda.png'">Izquierda</button>
+            <button onclick="document.getElementById('Lados').src='Imgns/Ahri-frente.png'">Frente</button>
+            <button onclick="document.getElementById('Lados').src='Imgns/Ahri-derecha.png'">Derecha</button>
+            <button onclick="document.getElementById('Lados').src='Imgns/Ahri-espalda.png'">Detras</button>
+        </div>
+    </div>
+
+    <div class="Lienzo-Botones-MO verborde">
+        <div>
+            <button type="button" onclick="document.getElementById('Ahri-descripcion').style.display='none'">Ocultar</button>
+            <button type="button" onclick="document.getElementById('Ahri-descripcion').style.display='block'">Mostrar</button>
+            <button type="button" onclick="AhriPrecio()">Precio</button>
+        </div>
+        <div class="justificar">
+            <p id="Ahri-descripcion">
+                ¡Presentamos la impresionante figura de Ahri de League of Legends! 🌟
+                <br />
+                Esta figura de colección captura a la perfección el encanto y la gracia de Ahri, la carismática vastaya de Runaterra. Con un diseño meticuloso y un acabado de alta calidad, esta pieza es un sueño hecho realidad para cualquier fanático de LoL.
+                <br />
+                Características destacadas:
+                <br />
+                Altura: 25 cm de pura elegancia.
+                <br />
+                Detalles: Increíbles detalles que reflejan fielmente el traje clásico de Ahri y su pose icónica.
+                <br />
+                Material: Fabricada con resina de primera calidad, asegurando durabilidad y un acabado impecable.
+                <br />
+                Accesorios: Incluye la orbe de magia de Ahri, añadiendo un toque extra de autenticidad.
+                <br />
+                Base: Base sólida con el logo de League of Legends, ideal para exhibir en cualquier lugar.
+                <br />
+                No pierdas la oportunidad de tener en tus manos esta pieza de arte que celebra la majestuosidad de Ahri. Perfecta para tu colección o como un regalo especial para otros invocadores. ¡Consigue la tuya y deja que Ahri ilumine tu espacio con su presencia mágica! ✨
+            </p>
+            <br />
+            <p id="Ahri-Precio">
+                Precio: 18,999 MXN
+            </p>
+        </div>
+
+
+    </div>
+
+    <script src="Botones.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.body
+{
+    background-color:dimgrey;
+}
+.verborde 
+{
+    border: 1px solid black;
+}
+.Lienzo-AhriVisuals {
+    width: 750px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}
+.AhriVisuals 
+{
+    width: 100%;
+    height: 100%;
+}
+.Lienzo-Ahri-Botones-Lados 
+{
+    width:260px;
+    height:auto;
+}
+
+.Lienzo-Botones-MO 
+{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding:20px;
+}
+.justificar p
+{
+    text-align:justify;
+}
